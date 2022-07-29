@@ -9,4 +9,4 @@
 
 ## This Software Needs To Be Compiled To Generate An Executable, Command To Compile:
 ### Pyinstaller
-    $ pyinstaller --onefile --noconsole --windowed main.py
+    $ pyinstaller --onefile --noconsole --windowed mac.py
