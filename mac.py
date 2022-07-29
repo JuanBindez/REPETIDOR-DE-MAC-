@@ -3,6 +3,7 @@ Copyright (c) 2022 Juan Carlos Bindez
 This project is licensed under the MIT License.
 '''
 
+
 import os
 import time
 from tkinter import *
@@ -71,13 +72,13 @@ frame.grid(row=0, column=0)
 label = Label(window, text="Repetidor de Mac ", font=("Courier", 25), bg="green").place(x=50, y=30)
 
 input_mac = (Entry(window, width=30))
-input_mac.place(x=98, y=80)
+input_mac.place(x=80, y=80)
 
 button = Button(window, text="10x", command=repete_10, fg='white', bg='green')
-button.place(x=75, y=150)
+button.place(x=44, y=150)
 
 button = Button(window, text="20x", command=repete_20, fg='white', bg='green')
-button.place(x=190, y=150)
+button.place(x=175, y=150)
 
 button = Button(window, text="50x", command=repete_50, fg='white', bg='green')
 button.place(x=310, y=150)
